@@ -9,6 +9,7 @@ function showStringProperties(curObj) {
   }
 }
 
+console.log('----------');
 const Person = {
   name: 'Dinanath',
   age: 40,

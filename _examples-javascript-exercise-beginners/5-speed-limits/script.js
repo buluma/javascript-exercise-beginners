@@ -1,8 +1,8 @@
 console.log('5-speed-limits');
 
-/* 
+/*
 <h3>Write a function which checks given input/parameter:</h3>
-  
+
 <ul>
   <li>If input/parameter is below speedlimit of 70 print => 'Good Safe Driving'</li>
   <li>If input/parameter is above speedlimit of 70, every 5 kilometers is Penalty Point, print => 'Speed Limit Crossed by Penalty Point' + Point </li>
@@ -26,17 +26,17 @@ function checkSpeedLimit(curSpeed) {
   }
 }
 
-let checkPoin1 = checkSpeedLimit(40);
-console.log(checkPoin1);
+let checkPoint1 = checkSpeedLimit(40);
+console.log(checkPoint1);
 
-let checkPoin2 = checkSpeedLimit(70);
-console.log(checkPoin2);
+let checkPoint2 = checkSpeedLimit(70);
+console.log(checkPoint2);
 
-let checkPoin3 = checkSpeedLimit(75);
-console.log(checkPoin3);
+let checkPoint3 = checkSpeedLimit(75);
+console.log(checkPoint3);
 
-let checkPoin4 = checkSpeedLimit(99);
-console.log(checkPoin4);
+let checkPoint4 = checkSpeedLimit(99);
+console.log(checkPoint4);
 
-let checkPoin5 = checkSpeedLimit(120);
-console.log(checkPoin5);
+let checkPoint5 = checkSpeedLimit(120);
+console.log(checkPoint5);
