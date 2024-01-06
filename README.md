@@ -4,8 +4,6 @@
 
 JavaScript Essential exercise for Beginners
 =====================
-JavaScript exercise/examples for Beginners
-=====================
 
 ## 01. What can JavaScript do?
 
