@@ -13,7 +13,7 @@ const Person = {
   name: 'Dinanath',
   age: 40,
   height: 5.6,
-  country: 'India',
+  country: 'Uganda',
   designation: 'UI Developer'
 }
 

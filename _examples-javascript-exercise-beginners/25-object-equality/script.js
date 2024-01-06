@@ -8,10 +8,10 @@ function Student(name, age, rank, country) {
   this.country = country;
 }
 
-let Students1 = new Student('Dinanath', 35, 5, 'India');
+let Students1 = new Student('Dinanath', 35, 5, 'Uganda');
 console.log('Students1', Students1);
 
-let Students2 = new Student('Dinanath', 35, 5, 'India');
+let Students2 = new Student('Dinanath', 35, 5, 'Uganda');
 console.log('Students2', Students2);
 
 console.log('----------');

@@ -639,7 +639,7 @@ const Person = {
   name: 'Dinanath',
   age: 40,
   height: 5.6,
-  country: 'India',
+  country: 'Uganda',
   designation: 'UI Developer'
 }
 
@@ -1680,7 +1680,7 @@ const Students = {
   name: 'Dinanath',
   age: 35,
   rank: 5,
-  country: 'India',
+  country: 'Uganda',
 }
 
 const Address = {
@@ -1688,7 +1688,7 @@ const Address = {
   city: 'Mumbai',
   pinCode: 401209,
   state: 'MH',
-  country: 'India',
+  country: 'Uganda',
 }
 
 function showObjectDetails(obj) {
@@ -1752,7 +1752,7 @@ function createObjFactoryMethod(name, age, rank, country) {
   }
 }
 
-let Students1 = createObjFactoryMethod('Dinanath', 35, 5, 'India');
+let Students1 = createObjFactoryMethod('Dinanath', 35, 5, 'Uganda');
 console.log('Students1', Students1);
 
 // Constructor function/method - pascalCasing - pascal notation - use this keyword
@@ -1818,10 +1818,10 @@ function Student(name, age, rank, country) {
   this.country = country;
 }
 
-let Students1 = new Student('Dinanath', 35, 5, 'India');
+let Students1 = new Student('Dinanath', 35, 5, 'Uganda');
 console.log('Students1', Students1);
 
-let Students2 = new Student('Dinanath', 35, 5, 'India');
+let Students2 = new Student('Dinanath', 35, 5, 'Uganda');
 console.log('Students2', Students2);
 
 console.log('----------');

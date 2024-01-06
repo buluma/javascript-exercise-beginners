@@ -7,7 +7,7 @@ function createObjFactoryMethod(name, age, rank, country) {
   }
 }
 
-let Students1 = createObjFactoryMethod('Dinanath', 35, 5, 'India');
+let Students1 = createObjFactoryMethod('Dinanath', 35, 5, 'Uganda');
 console.log('Students1', Students1);
 
 // Constructor function/method - pascalCasing - pascal notation - use this keyword

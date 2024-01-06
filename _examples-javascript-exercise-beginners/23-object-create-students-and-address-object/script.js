@@ -4,7 +4,7 @@ const Students = {
   name: 'Dinanath',
   age: 35,
   rank: 5,
-  country: 'India',
+  country: 'Uganda',
 }
 
 const Address = {
@@ -12,7 +12,7 @@ const Address = {
   city: 'Mumbai',
   pinCode: 401209,
   state: 'MH',
-  country: 'India',
+  country: 'Uganda',
 }
 
 function showObjectDetails(obj) {
